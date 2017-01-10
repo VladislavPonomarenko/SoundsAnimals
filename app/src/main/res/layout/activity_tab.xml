@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TabHost android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TabWidget android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TabWidget>
+            <FrameLayout android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ScrollView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <TableLayout android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+                                <TableRow>
+                                    <ImageButton android:id="@+id/image1"
+                                        android:onClick="onClick"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@mipmap/animal_icon_01_big_size_150x150"
+                                        android:layout_column="1" />
+                                    <ImageButton android:id="@+id/image2"
+                                        android:onClick="onClick"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@mipmap/animal_icon_02_big_size_150x150"
+                                        android:layout_column="1" />
+                                </TableRow>
+
+                                <TableRow>
+                                    <ImageButton android:id="@+id/image3"
+                                        android:onClick="onClick"
+                                        android:layout_column="1"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:src="@mipmap/animal_icon_03_big_size_150x150" />
+                                    <ImageButton android:id="@+id/image4"
+                                        android:onClick="onClick"
+                                        android:layout_column="1"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:src="@mipmap/animal_icon_04_big_size_150x150" />
+                                </TableRow>
+
+                                <TableRow>
+                                    <ImageButton android:id="@+id/image5"
+                                        android:onClick="onClick"
+                                        android:layout_column="1"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:src="@mipmap/animal_icon_05_big_size_150x150" />
+                                    <ImageButton android:id="@+id/image6"
+                                        android:onClick="onClick"
+                                        android:layout_column="1"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:src="@mipmap/animal_icon_06_big_size_150x150" />
+                                </TableRow>
+                                <TableRow>
+                                    <ImageButton android:id="@+id/image7"
+                                        android:onClick="onClick"
+                                        android:layout_column="1"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:src="@mipmap/animal_icon_07_big_size_150x150" />
+                                    <ImageButton android:id="@+id/image8"
+                                        android:onClick="onClick"
+                                        android:layout_column="1"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:src="@mipmap/animal_icon_08_big_size_150x150" />
+                                </TableRow>
+                                <TableRow>
+                                    <ImageButton android:id="@+id/image9"
+                                        android:onClick="onClick"
+                                        android:layout_column="1"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:src="@mipmap/animal_icon_09_big_size_150x150" />
+                                    <ImageButton android:id="@+id/image10"
+                                        android:onClick="onClick"
+                                        android:layout_column="1"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:src="@mipmap/animal_icon_10_big_size_150x150" />
+                                </TableRow>
+                                <TableRow>
+                                    <ImageButton android:id="@+id/image11"
+                                        android:onClick="onClick"
+                                        android:layout_column="1"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:src="@mipmap/animal_icon_11_big_size_150x150" />
+                                    <ImageButton android:id="@+id/image12"
+                                        android:onClick="onClick"
+                                        android:layout_column="1"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:src="@mipmap/animal_icon_12_big_size_150x150" />
+                                </TableRow>
+                            </TableLayout>
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+                        <ScrollView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TableLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    >
+                                    <TableRow>
+                                        <ImageButton
+                                            android:id="@+id/image01"
+                                            android:onClick="onClick"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@mipmap/transport_icon_01_big_size_150x150"
+                                            android:layout_column="1"
+                                            />
+                                        <ImageButton
+                                            android:id="@+id/image02"
+                                            android:onClick="onClick"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@mipmap/transport_icon_02_big_size_150x150"
+                                            android:layout_column="1"
+                                            />
+                                    </TableRow>
+
+                                    <TableRow>
+                                        <ImageButton
+                                            android:id="@+id/image03"
+                                            android:onClick="onClick"
+                                            android:layout_column="1"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:src="@mipmap/transport_icon_03_big_size_150x150"
+                                            />
+                                        <ImageButton
+                                            android:id="@+id/image04"
+                                            android:onClick="onClick"
+                                            android:layout_column="1"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:src="@mipmap/transport_icon_04_big_size_150x150"
+                                            />
+                                    </TableRow>
+
+                                    <TableRow>
+                                        <ImageButton
+                                            android:id="@+id/image05"
+                                            android:onClick="onClick"
+                                            android:layout_column="1"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:src="@mipmap/transport_icon_05_big_size_150x150"
+                                            />
+                                        <ImageButton
+                                            android:id="@+id/image06"
+                                            android:onClick="onClick"
+                                            android:layout_column="1"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:src="@mipmap/transport_icon_06_big_size_150x150"
+                                            />
+                                    </TableRow>
+                                    <TableRow>
+                                        <ImageButton
+                                            android:id="@+id/image07"
+                                            android:onClick="onClick"
+                                            android:layout_column="1"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:src="@mipmap/transport_icon_07_big_size_150x150"
+                                            />
+                                        <ImageButton
+                                            android:id="@+id/image08"
+                                            android:onClick="onClick"
+                                            android:layout_column="1"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:src="@mipmap/transport_icon_08_big_size_150x150"
+                                            />
+                                    </TableRow>
+                                    <TableRow>
+                                        <ImageButton
+                                            android:id="@+id/image09"
+                                            android:onClick="onClick"
+                                            android:layout_column="1"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:src="@mipmap/transport_icon_09_big_size_150x150"
+                                            />
+                                        <ImageButton
+                                            android:id="@+id/image010"
+                                            android:onClick="onClick"
+                                            android:layout_column="1"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:src="@mipmap/transport_icon_10_big_size_150x150"
+                                            />
+                                    </TableRow>
+                                    <TableRow>
+                                        <ImageButton
+                                            android:id="@+id/image011"
+                                            android:onClick="onClick"
+                                            android:layout_column="1"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:src="@mipmap/transport_icon_11_big_size_150x150"
+                                            />
+                                        <ImageButton
+                                            android:id="@+id/image012"
+                                            android:onClick="onClick"
+                                            android:layout_column="1"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:src="@mipmap/transport_icon_12_big_size_150x150"
+                                            />
+                                    </TableRow>
+                                </TableLayout>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </TableLayout>
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

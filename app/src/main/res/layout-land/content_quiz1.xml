@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_quiz1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.scarlet.song.QuizActivity1"
+    tools:showIn="@layout/activity_quiz1">
+    <TableLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:background="@color/orange">
+
+
+        <TableRow>
+            <ImageButton
+                android:id="@+id/buttonImage01"
+                android:padding="15px"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/orange"
+                android:src="@mipmap/question_300x299"
+                android:onClick="onClickImBtn01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+
+                />
+            <ImageButton android:id="@+id/buttonImage02"
+                android:padding="8dp"
+
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="30px"
+                android:layout_marginLeft="30dp"
+                android:background="@color/orange"
+
+                android:src="@mipmap/question_300x299"
+                android:onClick="onClickImBtn02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+
+                />
+
+            <ImageButton
+                android:id="@+id/buttonImage03"
+                android:padding="15px"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/orange"
+                android:src="@mipmap/question_300x299"
+                android:onClick="onClickImBtn03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+
+                />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+        <Button android:onClick="onButtonClick1"
+            android:id="@+id/buttonYellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/buttonIm0"
+
+
+            android:text="@string/play" />
+    </LinearLayout>
+
+
+</RelativeLayout>

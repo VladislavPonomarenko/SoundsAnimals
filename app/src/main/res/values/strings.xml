@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Song</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_">Home_Activity</string>
+    <string name="ImageButton0">Прослуховування</string>
+    <string name="button2">Вікторина</string>
+    <string name="title_activity_listening_">Listening_Activity</string>
+    <string name="title_activity_quiz_">Quiz_Activity</string>
+    <string name="sound">sound0</string>
+    <string name="sound1">sound1</string>
+    <string name="sound2">sound2</string>
+    <string name="animals">Тварини</string>
+    <string name="transport">Транспорт</string>
+    <string name="song_nature">Song\nNature</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="quiz">Тут могла бути ваша вікторина</string>
+    <string name="rec">І реклама</string><!--Жарт-->
+    <string name="play">Натисніть на кнопку\n щоб розпочати гру</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="title_activity_win">WinActivity</string>
+    <string name="well_done">Молодець</string>
+    <string name="next">Далі</string>
+    <string name="title_activity_quiz1">QuizActivity1</string>
+
+</resources>

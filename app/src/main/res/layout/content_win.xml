@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:id="@+id/content_win"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/green"
+        android:id="@+id/imageViewWin"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageViewWin"
+        android:layout_alignTop="@+id/imageViewWin"
+        android:layout_alignRight="@+id/imageViewWin"
+        android:layout_alignBottom="@+id/imageViewWin"
+        android:layout_margin="1dp"
+        android:gravity="center"
+
+        android:text="@string/well_done"
+        android:textSize="@dimen/song_nature"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+</RelativeLayout>
