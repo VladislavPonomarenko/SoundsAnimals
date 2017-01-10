@@ -192,7 +192,6 @@
                                             android:src="@mipmap/transport_icon_03_big_size_150x150"
                                             />
                                     </TableRow>
-
                                     <TableRow
                                         android:gravity="center">
 
@@ -205,7 +204,6 @@
                                             android:layout_marginLeft="@dimen/retreat_for_images"
                                             android:src="@mipmap/transport_icon_04_big_size_150x150"
                                             />
-
                                         <ImageButton
                                             android:id="@+id/image05"
                                             android:onClick="onClick"
@@ -266,7 +264,6 @@
                                             android:layout_marginLeft="@dimen/retreat_for_images"
                                             android:src="@mipmap/transport_icon_10_big_size_150x150"
                                             />
-
                                         <ImageButton
                                             android:id="@+id/image011"
                                             android:onClick="onClick"
