@@ -102,7 +102,8 @@ public class TabsActivity extends ActionBarActivity { //підключення  
     public void onClick(View view) { // підключення слухача
         switch (view.getId()) {
             case R.id.image1:
-                if (cnt0 == 0) {                    //при виборі певного зображення
+                if (cnt0 == 0) {
+                                            //при виборі певного зображення
                     sp.play(lion0, 1, 1, 0, 0, 1);  // буде програватися відповідний звук
                     cnt0++;                         // у лічильник додаємо +1
                     break;

@@ -21,55 +21,61 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
-                    <ScrollView android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                    <ScrollView android:layout_width="match_parent"
+                        android:layout_height="match_parent">
                         <LinearLayout android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
-                            <TableLayout android:layout_width="fill_parent"
-                                android:layout_height="fill_parent">
-                                <TableRow>
+                            <TableLayout android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TableRow
+                                    android:gravity="center"
+                                    >
                                     <ImageButton android:id="@+id/image1"
                                         android:onClick="onClick"
-                                        android:layout_width="wrap_content"
+                                        android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:src="@mipmap/animal_icon_01_big_size_150x150"
                                         android:layout_column="1" />
                                     <ImageButton android:id="@+id/image2"
                                         android:onClick="onClick"
-                                        android:layout_width="wrap_content"
+                                        android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:src="@mipmap/animal_icon_02_big_size_150x150"
                                         android:layout_column="1" />
                                 </TableRow>
 
-                                <TableRow>
+                                <TableRow
+                                    android:gravity="center"
+                                    >
                                     <ImageButton android:id="@+id/image3"
                                         android:onClick="onClick"
                                         android:layout_column="1"
                                         android:layout_height="wrap_content"
-                                        android:layout_width="wrap_content"
+                                        android:layout_width="match_parent"
                                         android:src="@mipmap/animal_icon_03_big_size_150x150" />
                                     <ImageButton android:id="@+id/image4"
                                         android:onClick="onClick"
                                         android:layout_column="1"
                                         android:layout_height="wrap_content"
-                                        android:layout_width="wrap_content"
+                                        android:layout_width="match_parent"
                                         android:src="@mipmap/animal_icon_04_big_size_150x150" />
                                 </TableRow>
 
-                                <TableRow>
+                                <TableRow
+                                    android:gravity="center"
+                                    >
                                     <ImageButton android:id="@+id/image5"
                                         android:onClick="onClick"
                                         android:layout_column="1"
                                         android:layout_height="wrap_content"
-                                        android:layout_width="wrap_content"
+                                        android:layout_width="match_parent"
                                         android:src="@mipmap/animal_icon_05_big_size_150x150" />
                                     <ImageButton android:id="@+id/image6"
                                         android:onClick="onClick"
                                         android:layout_column="1"
                                         android:layout_height="wrap_content"
-                                        android:layout_width="wrap_content"
+                                        android:layout_width="match_parent"
                                         android:src="@mipmap/animal_icon_06_big_size_150x150" />
                                 </TableRow>
                                 <TableRow>
