@@ -276,5 +276,3 @@ public class TabsActivity extends ActionBarActivity { //підключення  
         }
     }
 }
-
-//P.S. Це моя перша робота такого маштабу. Дякую, що дали скористатися такою можливістю.
